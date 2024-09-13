@@ -7,8 +7,7 @@ private Piece[][] board;
 public static Stack<int[]> moveHistory = new Stack<int[]>();
 
 public Game_State() {
-	board = new Piece[8][8];
-	
+	board = new Piece[8][8];	
 	
 	board[0][0] = new Piece(Piece_Type.Rook,false);
 	board[1][0] = new Piece(Piece_Type.Knight,false);
